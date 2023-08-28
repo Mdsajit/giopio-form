@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GioPio</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <!--css links-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!--fontawesome links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <!--logo start-->
+                  <a class="navbar-brand logo" href="index.html">
+                    <img src="./images/logo.png" class="img-fluid" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom_carousel" aria-controls="custom_carousel" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse header_menu" id="custom_carousel">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                            <a class="nav-link"  href="#">Dashboard</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Analytics</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Courses<i class="fa-solid fa-angle-down"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Bundle Course<i class="fa-solid fa-angle-down"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Students<i class="fa-solid fa-angle-down"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Earning</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Messaging</a>
+                          </li>
+                    </ul>
+                    <!-- search icon start -->
+                    <div class="nav_search">
+                    <i class="fas fa-search"></i>
+                   <div class="notification">
+                    <i class="fa-regular fa-bell"></i>
+                    <span>5</span>
+                   </div>
+                   <div class="profile-image">
+                    <img src="./images/profile.png" class="img-fluid" alt="">
+                    <ul class="profile-dropdown">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Account Setting</a></li>
+                        <li><a href="#">Theme Setting</a></li>
+                        <li><a href="#">DNS</a></li>
+                      </ul>
+                   </div>
+                   </div>
+                    <!-- search icon end-->
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main class="main mt-5">
+        <div class="container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Theme Setting</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">DNS</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"></div>
+              </div>
+        </div>
+    </main>
+    <section class="container main-second-part">
+        <div class="row">
+            <div class="col-lg-7 col-md-8 col-sm-12 col-12">
+                <div class="logo-box-section">
+                    <h4>Logo</h4>
+                    <p>The logo visible within your Huddle App.</p>
+                    <img src="./images/banner-logo.png" class="img-fluid" alt="">
+                    <h4>App Logo</h4>
+                    <p>The logo visible within your Huddle App.</p>
+                    <img src="./images/logo-black 1.png" alt="">
+                    <div class="color-picker-box">
+                        <img src="./images/colorfilter.png" alt="">
+                        <div>
+                            <h4>Menu Background Color</h4>
+                            <p>This is the color of your menu bar. Your logo should look good on this.</p>
+                        </div>
+                        <input type="color" name="" class="colorPicker">
+                    </div>
+                    <div class="color-picker-box">
+                        <img src="./images/colorswatch.png" alt="">
+                        <div class="">
+                            <h4>Accent Color</h4>
+                            <p>This is the color of your menu bar. Your logo should look good on this.</p>
+                        </div>
+                        <input type="color" name="" class="colorPicker">
+                    </div>
+                </div>
+                <div class="left-side-section mt-5">
+                    <h4>Select Login Page Theme</h4>
+                    <div class="login-page-theme">
+                        <img src="./images/image-four.png" alt="">
+                        <div>
+                            <h4>Raouls Choice <span>Active Theme</span></h4>
+                            <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en geoptimaliseerd voor conversie.</p>
+                        </div>
+                    </div>
+                    <div class="login-page-theme">
+                        <img src="./images/image-one.png" alt="">
+                        <div>
+                            <h4>Volledige Breedte Afbeelding</h4>
+                            <p>In dit thema kon je een valledige breedte afbeeliding uplioden en heb je toegang tot nog aartal extra optes.</p>
+                        </div>
+                    </div>
+                    <div class="login-page-theme">
+                        <img src="./images/image-two.png" alt="">
+                        <div>
+                            <h4>Zijbalk & Achtergrond</h4>
+                            <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en geoptimaliseerd voor conversie.</p>
+                        </div>
+                    </div>
+                    <div class="login-page-theme">
+                        <img src="./images/image-three.png" alt="">
+                        <div>
+                            <h4>Zijbalk & Achtergrond</h4>
+                            <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en geoptimaliseerd voor conversie.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-side-section mt-5">
+                  <div class="login-page-theme">
+                    <div class="upload-wrapper">
+                      <input type="file" id="fileInput" class="file-input" name="fileInput">
+                      <label for="fileInput" class="file-input-label">
+                        <img src="./images/upload-cloud.png" class="img-fluid" alt="upload-icon">
+                        <span>Click to upload</span>
+                        <h4>or drag and drop</h4>
+                      </label>
+                    </div>
+                    <div>
+                      <h6 style="font-size: 1.2rem;">Upload Login Page Background Image</h6>
+                      <p>SVG, PNG, JPG or GIF (max. 1200x900px)</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="footer-button mt-5 mb-5">
+                  <button class="cancel-btn">Cancel</button>
+                  <button class="save-btn">Save</button>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-12 col-12">
+              <div class="right-side-section">
+                <h6>Meta</h6>
+                <p>Metadata is used to improve your position in search engines.</p>
+                <div class="right-title-input">
+                    <p>Meta Title</p>
+                    <input type="text">
+                </div>
+                <div class="right-title-input">
+                    <p>Meta Description</p>
+                    <input type="text" style="height: 55px;" placeholder="Type your description">
+                </div>
+            </div>
+            <div class="input-box-container">
+              <h6>Favicon</h6>
+              <p>Your favicon will be shown in<br> browsers and in search results.</p>
+              <div class="upload-wrapper-favicon">
+                <input type="file" id="fileInput" class="file-input-favicon" name="fileInput">
+                <label for="fileInput" class="favicon-input-label">
+                  <img src="./images/upload-cloud.png" class="img-fluid" alt="upload-icon">
+                  <h4>Click to upload <span>or drag and drop </span></h4>
+                  <span class="image-size">SVG, PNG, JPG or GIF (max.<br>300x300px)</span>
+                </label>
+              </div>
+            </div>
+            <div class="input-box-container mt-4">
+              <h6>Apple Icon</h6>
+              <p>Also known as Apple touch icon.<br> This is the icon  that is displayed<br>to navigate to your Huddie when<br>a user has saved your Huddies as<br>a favourite in their Apple device.</p>
+              <div class="upload-wrapper-favicon">
+                <input type="file" id="fileInput" class="file-input-favicon" name="fileInput">
+                <label for="fileInput" class="favicon-input-label">
+                  <img src="./images/upload-cloud.png" class="img-fluid" alt="upload-icon">
+                  <h4>Click to upload <span>or drag and drop </span></h4>
+                  <span class="image-size">SVG, PNG, JPG or GIF (max.<br>300x300px)</span>
+                </label>
+              </div>
+            </div>
+            </div>
+        </div>        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
